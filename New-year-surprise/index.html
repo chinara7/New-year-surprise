@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <title>New year surprise</title>
+</head>
+
+<body>
+    <i class="fas fa-snowflake"></i>
+
+    <!-- Container-1 start -->
+    <div class="container-1" id="container-1">
+        <!--Title start -->
+        <div class="title" id="title">
+            <img src="./image/image-2022.png" alt="">
+            <h1>New year surprise</h1>
+        </div>
+        <!--Title end -->
+        <!--Input section start -->
+        <div class="input-section" id="input-section">
+            <div class="input-text">
+                <i class="fas fa-gifts"></i>
+                <p>
+                    If you want to get your first gift in 2022, then answer 5 simple questions correctly in 5 minutes
+                    and get your gift.
+                </p>
+            </div>
+            <form class="name-form">
+                <input type="text" class="form-control" id="name-input" placeholder="Enter your name"
+                     aria-describedby="addon-wrapping" required>
+                    <input type="text" class="form-control"  placeholder="Enter your email"
+                     aria-describedby="addon-wrapping" required>
+                <button type="button" id="start-btn" class="btn btn-success btn-lg start-btn">Start game</button>
+            </form>
+        </div>
+        <!--Input section end -->
+    </div>
+    <!-- Container-1 end -->
+
+    <!-- Container-2 start -->
+    <div class="container-2" id="container-2">
+        <!-- Question content start -->
+        <div class="question-content">
+            <div class="timer" id="timer">
+                <p class="question-section-title">Good luck <span id="name">No name</span></p>
+                <p class="countdown" id="countdown"></p>
+            </div>
+        </div>
+        <!-- Question content end -->
+
+        <!-- Questions start -->
+        <div class="questions" id="questions">
+            <div class="first-answer" id="check-answer-1">
+                <p class="question" id="question-1"><span></span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Ipsa, laudantium.
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1answer" id="ans-11">
+                    <label class="form-check-label" for="ans-11" id="answer11">
+                        Default radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1answer" id="ans-12">
+                    <label class="form-check-label" for="ans-12" id="answer12">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1answer" id="ans-13">
+                    <label class="form-check-label" for="ans-13" id="answer13">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1answer" id="ans-14">
+                    <label class="form-check-label" for="ans-14" id="answer14">
+                        Default checked radio
+                    </label>
+                </div>
+            </div>
+
+            <div id="check-answer-2">
+                <p class="question" id="question-2"><span>2.</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Ipsa, laudantium.
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2answer" id="ans-21">
+                    <label class="form-check-label" for="ans-21" id="answer21">
+                        Default radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2answer" id="ans-22">
+                    <label class="form-check-label" for="ans-22" id="answer22">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2answer" id="ans-23">
+                    <label class="form-check-label" for="ans-23" id="answer23">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2answer" id="ans-24">
+                    <label class="form-check-label" for="ans-24" id="answer24">
+                        Default checked radio
+                    </label>
+                </div>
+            </div>
+
+            <div id="check-answer-3">
+                <p class="question" id="question-3"><span>3.</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Ipsa, laudantium.
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3answer" id="ans-31">
+                    <label class="form-check-label" for="ans-31" id="answer31">
+                        Default radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3answer" id="ans-32">
+                    <label class="form-check-label" for="ans-32" id="answer32">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3answer" id="ans-33">
+                    <label class="form-check-label" for="ans-33" id="answer33">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3answer" id="ans-34">
+                    <label class="form-check-label" for="ans-34" id="answer34">
+                        Default checked radio
+                    </label>
+                </div>
+            </div>
+
+            <div id="check-answer-4">
+                <p class="question" id="question-4"><span>4.</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Ipsa, laudantium.
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4answer" id="ans-41">
+                    <label class="form-check-label" for="ans-41" id="answer41">
+                        Default radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4answer" id="ans-42">
+                    <label class="form-check-label" for="ans-42" id="answer42">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4answer" id="ans-43">
+                    <label class="form-check-label" for="ans-43" id="answer43">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4answer" id="ans-44">
+                    <label class="form-check-label" for="ans-44" id="answer44">
+                        Default checked radio
+                    </label>
+                </div>
+            </div>
+
+            <div class="last-answer" id="check-answer-5">
+                <p class="question" id="question-5"><span>5.</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Ipsa, laudantium.
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5answer" id="ans-51">
+                    <label class="form-check-label" for="ans-51" id="answer51">
+                        Default radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5answer" id="ans-52">
+                    <label class="form-check-label" for="ans-52" id="answer52">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5answer" id="ans-53">
+                    <label class="form-check-label" for="ans-53" id="answer53">
+                        Default checked radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5answer" id="ans-54">
+                    <label class="form-check-label" for="ans-54" id="answer54">
+                        Default checked radio
+                    </label>
+                </div>
+            </div>
+
+        </div>
+        <button type="button" id="submit-btn" class="btn btn-primary btn-lg submit-btn">Submit</button>
+        <button type="button" id="result-btn" class="btn btn-warning btn-lg result-btn">Result</button>
+        <!-- Questions end -->
+    </div>
+    <!-- Container-2 end -->
+
+    <!-- Container-3 start -->
+    <div class="container-3" id="container-3">
+        <h1 class="result-title">Your result - <span id="result0"></span></h1>
+        <div class="result-0" id="result-div-0">
+            <img src="" alt="" id="result-0">
+        </div>
+    </div>
+    <!-- Container-3 end -->
+
+    <!-- Container-4 start -->
+    <div class="container-3" id="container-4">
+        <h1 class="result-title">Your result - <span id="result1"></span><br> 50 AZN gift card</h1>
+        <div class="result-1" id="result-div-1">
+            <img src="./image/score1.PNG" alt="" id="result-1">
+        </div>
+    </div>
+    <!-- Container-4 start -->
+
+    <!-- Container-5 start -->
+    <div class="container-3" id="container-5">
+        <h1 class="result-title">Your result - <span id="result2"></span><br> 100 AZN gift card</h1>
+        <div class="result-2" id="result-div-2">
+            <img src="./image/score2.PNG" alt="" id="result-2">
+        </div>
+    </div>
+    <!-- Container-5 start -->
+
+    <!-- Container-6 start -->
+    <div class="container-3" id="container-6">
+        <h1 class="result-title">Your result - <span id="result3"></span><br> Apple AirPods Max</h1>
+        <div class="result-3" id="result-div-2">
+            <img src="./image/score3.png" alt="" id="result-3">
+        </div>
+    </div>
+    <!-- Container-6 start -->
+
+    <!-- Container-7 start -->
+    <div class="container-3" id="container-7">
+        <h1 class="result-title">Your result - <span id="result4"></span><br> Apple Watch Series 7</h1>
+        <div class="result-4" id="result-div-2">
+            <img src="./image/score4.png" alt="" id="result-4">
+        </div>
+    </div>
+    <!-- Container-7 start -->
+
+    <!-- Container-8 start -->
+    <div class="container-3" id="container-8">
+        <h1 class="result-title">Your result - <span id="result5"></span> <br>Ticket for 2 people to London</h1>
+        <div class="result-5" id="result-div-2">
+            <img src="./image/score5.png" alt="" id="result-5">
+        </div>
+    </div>
+    <!-- Container-8 start -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
